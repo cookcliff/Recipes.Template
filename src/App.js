@@ -6,21 +6,15 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          My Recipes <span className="heart">-</span> John Doe
         </p>
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+        <div style="background-color: #fcba03;">
+          <h1>My Recipe</h1>
+          <p>Milk + Carrot</p>
+        </div>
       </header>
     </div>
   );
